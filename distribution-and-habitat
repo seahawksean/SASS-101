@@ -1,0 +1,43 @@
+<!DOCTYPE hmtl>
+<head>
+  <meta charset="utf-8">
+  <title>Tigers</title>
+</head>
+<body>
+  <header>
+     <h1>Distribution &amp; Habitat</h1>
+  </header>
+  <main>
+    <section>
+      <p>In the past, tigers were found throughout Asia, from the Caucasus and the Caspian Sea to Siberia and the Indonesian islands of Java, Bali and Sumatra. Fossil remains indicate tigers were also present in Borneo and Palawan in the Philippines during the late Pleistocene and Holocene.</p>
+
+      <p>During the 20th century, tigers became extinct in western Asia and were restricted to isolated pockets in the remaining parts of their range. They were extirpated on the island of Bali in the 1940s, around the Caspian Sea in the 1970s, and on Java in the 1980s. This was the result of habitat loss and the ongoing killing of tigers and tiger prey. Today, their fragmented and partly degraded range extends from India in the west to China and Southeast Asia. The northern limit of their range is close to the Amur River in southeastern Siberia. The only large island they still inhabit is Sumatra. Since the beginning of the 20th century, tigers' historical range has shrunk by 93<abbr title="percent">%</abbr>. In the decade from 1997 to 2007, the estimated area known to be occupied by tigers has declined by 41<abbr title="percent">%</abbr>.</p>
+
+      <p>Tigers can occupy a wide range of habitat types, but will usually require sufficient cover, proximity to water, and an abundance of prey. Compared to the lion, the tiger prefers denser vegetation, for which its camouflage colouring is ideally suited, and where a single predator is not at a disadvantage compared with the multiple felines in a pride. A further habitat requirement is the placement of suitably secluded den locations, which may consist of caves, large hollow trees, or dense vegetation. Bengal tigers in particular live in many types of forests, including wet, evergreen, and the semievergreen of Assam and eastern Bengal; the swampy mangrove forest of the Ganges Delta; the deciduous forest of Nepal, and the thorn forests of the Western Ghats. In various parts of their range they inhabit or have inhabited additionally partially open grassland and savanna as well as taiga forests and rocky habitats.</p>
+    </section>
+  </main>
+  <footer>
+    <article>
+      <ul>
+        Description
+        <li><a href="/descriptoin#size">Size</a></li>
+        <li><a href="/descriptoin#color-variations">Color Variations</a></li>
+      </ul>
+    </article>
+    <article>
+      <ul>
+        Distribution &amp; Habitat
+          <li><a href="/distribution-and-habitat">Distribution &amp; Habitat</a></li>
+      </ul>
+    </article>
+    <article>
+      <ul>
+        Biology &amp; Behavior
+        <li><a href="/ecology#social-activity">Social Activity</a></li>
+        <li><a href="/ecology#hunting-and-diet">Hunting and Diet</a></li>
+        <li><a href="/ecology#interaction">Interaction With Other Predators</a></li>
+        <li><a href="/ecology#reproduction">Reproduction</a></li>
+      </ul>
+    </article>
+  </footer>
+</body>
