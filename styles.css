@@ -9,6 +9,7 @@ body {
   
 a {
   color: orange;
+  text-decoration: none;
   }
 
 h1, h2 {
@@ -66,3 +67,10 @@ ul li a {
 li a:hover {
   text-decoration: underline;
 }
+
+blockquote {
+  font-family: "Lucidia", Arial, sans-serif;
+  font-size: 1.25em;
+  font-variant: italic;
+  color: orange;
+  }
