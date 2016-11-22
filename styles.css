@@ -29,6 +29,7 @@ ul {
   text-transform: uppercase;
   color: black;
   list-style: none;
+  float: left;
 }
 
 ul li {
