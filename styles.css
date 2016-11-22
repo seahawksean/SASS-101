@@ -35,6 +35,7 @@ ul {
   color: black;
   list-style: none;
   flex-grow: 1;
+  line-height: 1.5;
 }
 
 ul a {
