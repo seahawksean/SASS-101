@@ -1,7 +1,8 @@
-<!DOCTYPE hmtl>
+<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <title>Tigers</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
@@ -18,6 +19,9 @@
   </main>
   <footer>
     <article>
+      <ul>Home
+        <li><a href="index.html">Size</a></li>
+      </ul>
       <ul>
         Description
         <li><a href="description.html#size">Size</a></li>
