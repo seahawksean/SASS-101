@@ -71,10 +71,16 @@ li a:hover {
 blockquote {
   font-family: "Lucidia", Arial, sans-serif;
   font-size: 1.25em;
-  font-style: italic;
-  color: black;
+  font-variant: italic;
+  color: orange;
   }
 
 blockquote:before {
-  content: "U+02EE";
+  content: open-quote;
+  font-size: 2em;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 2em;
 }
