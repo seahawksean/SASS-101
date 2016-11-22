@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: .875em;
@@ -6,7 +10,11 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   }
-  
+
+section {
+  border-bottom: 1px solid #ebebeb;
+}
+
 a {
   color: orange;
   text-decoration: none;
