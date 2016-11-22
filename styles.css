@@ -1,0 +1,24 @@
+p {
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: .75em;
+  color: #666666;
+  }
+  
+a {
+  color: orange;
+  }
+
+h1, h2 {
+  font-family: "Georgia", Times New Roman, serif;
+  }
+  
+h1 {
+  font-size: 2.5em;
+  color: black;
+  }
+
+h2 {
+  font-size: 1.5em;
+  color: #333333;
+  }
+  
