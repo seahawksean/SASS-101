@@ -32,14 +32,15 @@ ul {
   padding-left: 20px;
 }
 
-li {
+ul li {
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: .75em;
   color: #333;
   line-height: 2;
   text-transform: none;
 }
 
-li a {
+ul li a {
   color: #333;
   text-decoration: none;
 }
