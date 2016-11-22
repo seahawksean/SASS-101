@@ -23,13 +23,18 @@ h2 {
   color: #333333;
   }
   
+footer article {
+  display: flex;
+  justify-content: space-between;
+  }
+
 ul {
   font-size: 1em;
   font-family: "Georgia", Times New Roman, serif;
   text-transform: uppercase;
   color: black;
   list-style: none;
-  float: left;
+  flex-grow: 1;
 }
 
 ul li {
