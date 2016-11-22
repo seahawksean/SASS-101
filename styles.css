@@ -29,12 +29,14 @@ ul {
   text-transform: uppercase;
   color: black;
   list-style: none;
+  padding-left: 20px;
 }
 
 li {
   font-size: .75em;
   color: #333;
   line-height: 2;
+  text-transform: none;
 }
 
 li a {
