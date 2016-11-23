@@ -45,6 +45,7 @@ nav ul li {
   font-family: "Georgia", Times New Roman, serif;
   font-size: 1.25em;
   display: inline;
+  padding: 0;
   }
 
 nav ul li a {
