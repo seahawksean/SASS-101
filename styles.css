@@ -16,6 +16,11 @@ main {
   }
 
 header {
+  max-width: 100%;
+  }
+
+header img {
+  width: 100%;
   }
 
 nav ul {
