@@ -10,10 +10,18 @@ body {
   margin: 0;
 }
 
+nav {
+  position: relative;
+  bottom: 15%;
+  float: right;
+  width: 50%;
+  }
+
 main {
   width: 960px;
   margin: 0 auto;
   padding: 0 20px;
+  clear: both;
   }
 
 #banner {
