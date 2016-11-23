@@ -28,11 +28,13 @@ main {
   z-index: 1;
   text-align: center;
   position: relative;
+  top: 45%;
   }
 
 #banner img {
   width: 100%;
   position: relative;
+  top: -14%;
   }
 
 nav ul {
