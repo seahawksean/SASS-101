@@ -11,18 +11,22 @@ body {
   padding: 0 20px;
   }
 
+header {
+  background-image: url('Images/bengalTiger-resting-hero.jpg');
+  }
+
 nav ul {
   width: 50%;
-  position: relative;
-  right: 0;
-  display: inline;
+  padding: 0;
   }
 
 nav ul li {
   font-family: "Georgia", Times New Roman, serif;
-  font-size: 1em;
-  background-color: orange;
+  font-size: 1.25em;
+  background-color: #f26522;
   border-radius: 5px 5px 0 0;
+  display: inline;
+  padding: 5px;
   }
 
 section {
@@ -31,7 +35,7 @@ section {
   }
 
 a {
-  color: orange;
+  color: #f26522;
   text-decoration: none;
   }
 
