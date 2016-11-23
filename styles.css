@@ -11,10 +11,24 @@ body {
   padding: 0 20px;
   }
 
+nav ul {
+  width: 50%;
+  position: relative;
+  right: 0;
+  display: inline;
+  }
+
+nav ul li {
+  font-family: "Georgia", Times New Roman, serif;
+  font-size: 1em;
+  background-color: orange;
+  border-radius: 5px 5px 0 0;
+  }
+
 section {
   border-bottom: 1px solid #ebebeb;
   padding-bottom: 10px;
-}
+  }
 
 a {
   color: orange;
