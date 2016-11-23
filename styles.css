@@ -27,11 +27,12 @@ main {
   font-size: 8em;
   z-index: 1;
   text-align: center;
-  margin: 0 auto;
+  position: relative;
   }
 
 #banner img {
   width: 100%;
+  position: relative;
   }
 
 nav ul {
