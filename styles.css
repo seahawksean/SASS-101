@@ -25,10 +25,10 @@ main {
   color: white;
   text-shadow: 5px 5px 10px #000;
   font-size: 8em;
-  z-index: 1;
   text-align: center;
-  position: relative;
+  position: asbolute;
   top: -44%;
+  width: 100%;
   }
 
 #banner img {
