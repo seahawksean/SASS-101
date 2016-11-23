@@ -16,12 +16,22 @@ main {
   padding: 0 20px;
   }
 
-.banner {
+#banner {
   max-width: 100%;
   position: relative;
   }
 
-.banner img {
+#banner h1 {
+  color: white;
+  text-shadow: 5px 5px 10px #000;
+  font-size: 8em;
+  position: relative;
+  top: 70%;
+  z-index: 1;
+  width:75%;
+  }
+
+#banner img {
   width: 100%;
   }
 
