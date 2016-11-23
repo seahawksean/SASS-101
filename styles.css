@@ -16,11 +16,12 @@ main {
   padding: 0 20px;
   }
 
-header {
+.banner {
   max-width: 100%;
+  position: relative;
   }
 
-header img {
+.banner img {
   width: 100%;
   }
 
