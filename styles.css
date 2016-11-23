@@ -44,12 +44,12 @@ nav ul {
 nav ul li {
   font-family: "Georgia", Times New Roman, serif;
   font-size: 1.25em;
-  border-radius: 5px 5px 0 0;
   display: inline;
   }
 
 nav ul li a {
   background-color: #f26522;
+  border-radius: 5px 5px 0 0;
   color: white;
   padding: 10px 20px
   }
