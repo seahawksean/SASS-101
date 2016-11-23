@@ -7,12 +7,15 @@ body {
   font-size: .875em;
   color: #666666;
   line-height: 1.5;
+}
+
+main {
+  width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   }
 
 header {
-  background-image: url('Images/bengalTiger-resting-hero.jpg');
   }
 
 nav ul {
