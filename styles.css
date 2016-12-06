@@ -13,8 +13,8 @@ body {
 nav {
   position: relative;
   margin-top: -5.43%;
-  float: right;
-  width: 50%;
+  width: 100%;
+  max-width: 960px;
   }
 
 main {
