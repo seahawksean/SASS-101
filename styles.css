@@ -110,6 +110,7 @@ nav ul li a:hover {
   transition: background-color 1s ease-in;
   background-color: #000;
   text-decoration: none;
+  color: white;
 }
 
 nav ul li a:active {
