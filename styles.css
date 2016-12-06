@@ -135,10 +135,16 @@ footer article {
   justify-content: space-between;
   }
 
+
+@media screen and (min-width: 320px) and (max-width: 959px) {
+  footer article {
+    padding: 20px 0;
+  }
+}
+
 @media screen and (max-width: 480px) {
   footer article {
     display: block;
-    padding: 20px 0;
   }
 }
 
