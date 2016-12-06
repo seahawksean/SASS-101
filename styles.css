@@ -33,9 +33,23 @@ main {
   width: 100%;
 }
 
+@media screen and (min-width: 481px) and (max-width: 959px) {
+  .body-image-right {
+    max-width: 280px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-image-right {
+    max-width: 480px;
+  }
+}
+
 .body-image {
   margin: 0 auto;
   display: block;
+  width: 100%;
 }
 
 .figure_caption {
