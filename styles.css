@@ -27,6 +27,7 @@ main {
 
 .body-image-right {
   float: right;
+  margin: 5px 0 10px 15px;
 }
 
 #banner {
