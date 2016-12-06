@@ -28,6 +28,8 @@ main {
 .body-image-right {
   float: right;
   margin: 5px 0 10px 15px;
+  max-width: 480px;
+  width: 100%;
 }
 
 .body-image {
