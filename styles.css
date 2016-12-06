@@ -117,14 +117,13 @@ ul a:hover {
 ul li {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 1em;
-  color: white;
   line-height: 2;
   text-transform: none;
   padding-left: 10px;
 }
 
 ul li a {
-  color: #333;
+  color: white;
   text-decoration: none;
 }
 
