@@ -25,6 +25,10 @@ main {
   clear: both;
   }
 
+.body-image-right {
+  float: right;
+}
+
 #banner {
   max-width: 100%;
   position: relative;
