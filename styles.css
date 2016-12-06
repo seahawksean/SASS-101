@@ -40,6 +40,7 @@ main {
 .figure_caption {
   font-family: "Georgia", Times New Roman, serif;
   font-size: .75em;
+  color: black;
 }
 
 #banner {
