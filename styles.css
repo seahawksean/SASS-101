@@ -90,6 +90,7 @@ h2 {
   }
   
 footer article {
+  background: #000;
   display: flex;
   justify-content: space-between;
   }
@@ -98,7 +99,7 @@ ul {
   font-size: 1em;
   font-family: "Georgia", Times New Roman, serif;
   text-transform: uppercase;
-  color: black;
+  color: #c3c3c3;
   list-style: none;
   flex-grow: 1;
   line-height: 1.5;
@@ -116,7 +117,7 @@ ul a:hover {
 ul li {
   font-family: "Helvetica", Arial, sans-serif;
   font-size: 1em;
-  color: #333;
+  color: white;
   line-height: 2;
   text-transform: none;
   padding-left: 10px;
