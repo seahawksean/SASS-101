@@ -88,6 +88,10 @@ h1, h2 {
 h1 {
   font-size: 2.5em;
   color: black;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
   }
 
 h2 {
