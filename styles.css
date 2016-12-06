@@ -100,16 +100,20 @@ nav ul li a {
   padding: 10px 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  -moz-transition: background-color 2s ease-in;
-  -webkit-transition: background-color 2s ease-in;
-  -ms-transition: background-color 2s ease-in;
-  -o-transition: background-color 2s ease-in;
-  transition: background-color 2s ease-in;
   }
 
-nav ul li a:hover, nav ul li a:active {
+nav ul li a:hover {
+  -moz-transition: background-color 1s ease-in;
+  -webkit-transition: background-color 1s ease-in;
+  -ms-transition: background-color 1s ease-in;
+  -o-transition: background-color 1s ease-in;
+  transition: background-color 1s ease-in;
   background-color: #000;
   text-decoration: none;
+}
+
+nav ul li a:active {
+  background-color: #000;
 }
 
 section {
