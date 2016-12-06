@@ -127,6 +127,11 @@ a {
   text-decoration: none;
   }
 
+a:hover, a:focus {
+  color: #666;
+  text-decoration: underline;
+  }
+
 h1, h2 {
   font-family: "Georgia", Times New Roman, serif;
   }
