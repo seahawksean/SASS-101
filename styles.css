@@ -18,47 +18,6 @@ nav {
   margin: 0 auto;
   }
 
-main {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0 20px;
-  clear: both;
-  }
-
-.body-image-right {
-  float: right;
-  margin: 5px 0 10px 15px;
-  max-width: 480px;
-  width: 100%;
-}
-
-@media screen and (min-width: 481px) and (max-width: 959px) {
-  .body-image-right {
-    max-width: 280px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .body-image-right {
-    max-width: 480px;
-  }
-}
-
-.body-image {
-  margin: 0 auto;
-  display: block;
-  width: 100%;
-}
-
-.figure_caption {
-  font-family: "Georgia", Times New Roman, serif;
-  font-size: .75em;
-  color: black;
-  margin: 10px 0;
-}
-
 #banner {
   max-width: 100%;
   position: relative;
@@ -75,6 +34,21 @@ main {
   max-width: 100%;
   }
 
+@media screen and (min-width: 769px) and (max-width: 959px) {
+  #banner h1 {
+    font-size: 4em;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  #banner h1 {
+    font-size: 3em;
+}
+  
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  #banner h1 {
+    font-size: 2em;
+}
+    
 #banner img {
   width: 100%;
   position: relative;
@@ -123,6 +97,47 @@ section {
   margin-bottom: 30px;
   }
 
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  clear: both;
+  }
+
+.body-image-right {
+  float: right;
+  margin: 5px 0 10px 15px;
+  max-width: 480px;
+  width: 100%;
+}
+
+@media screen and (min-width: 481px) and (max-width: 959px) {
+  .body-image-right {
+    max-width: 280px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-image-right {
+    max-width: 480px;
+  }
+}
+
+.body-image {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.figure_caption {
+  font-family: "Georgia", Times New Roman, serif;
+  font-size: .75em;
+  color: black;
+  margin: 10px 0;
+}
+
 a {
   color: #f26522;
   text-decoration: none;
@@ -143,7 +158,6 @@ h1 {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
-  padding-left: 20px;
   }
 
 h2 {
