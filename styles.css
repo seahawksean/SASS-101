@@ -11,6 +11,68 @@ body {
 }
 
 /**********************
+DEFAULTS
+**********************/
+h1, h2 {
+  font-family: "Georgia", Times New Roman, serif;
+  }
+  
+h1 {
+  font-size: 2.5em;
+  color: black;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  }
+
+h2 {
+  font-size: 1.5em;
+  color: #333333;
+  }
+
+a {
+  color: #f26522;
+  text-decoration: none;
+  }
+
+a:hover, a:focus {
+  color: #666;
+  text-decoration: underline;
+  }
+
+blockquote {
+  font-family: "Lucidia", Arial, sans-serif;
+  font-size: 1.25em;
+  font-style: italic;
+  color: black;
+  padding: 10px;
+  }
+
+blockquote:before {
+  content: open-quote;
+  font-size: 2em;
+  line-height: .5;
+}
+
+blockquote:after {
+  content: close-quote;
+  font-size: 2em;
+  line-height: .5;
+}
+
+/**********************
+HELPERS
+**********************/
+.hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6 and IE7 use the wrong syntax */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/**********************
 BANNER/HERO IMAGE
 **********************/
 #banner {
@@ -114,12 +176,6 @@ main {
   clear: both;
   }
 
-.body-image-right {
-  float: right;
-  margin: 5px 0 10px 15px;
-  max-width: 480px;
-  width: 100%;
-}
 
 /* Responsive Images */
 .body-image {
@@ -129,6 +185,13 @@ main {
 }
 
 /* Figure */
+.body-image-right {
+  float: right;
+  margin: 5px 0 10px 15px;
+  max-width: 480px;
+  width: 100%;
+}
+
 .figure_caption {
   font-family: "Georgia", Times New Roman, serif;
   font-size: .75em;
@@ -136,32 +199,7 @@ main {
   margin: 10px 0;
 }
 
-a {
-  color: #f26522;
-  text-decoration: none;
-  }
 
-a:hover, a:focus {
-  color: #666;
-  text-decoration: underline;
-  }
-
-h1, h2 {
-  font-family: "Georgia", Times New Roman, serif;
-  }
-  
-h1 {
-  font-size: 2.5em;
-  color: black;
-  max-width: 960px;
-  width: 100%;
-  margin: 0 auto;
-  }
-
-h2 {
-  font-size: 1.5em;
-  color: #333333;
-  }
 
 /***********************
 FOOTER
@@ -211,25 +249,7 @@ li a:hover {
   color: #c3c3c3;
 }
 
-blockquote {
-  font-family: "Lucidia", Arial, sans-serif;
-  font-size: 1.25em;
-  font-style: italic;
-  color: black;
-  padding: 10px;
-  }
 
-blockquote:before {
-  content: open-quote;
-  font-size: 2em;
-  line-height: .5;
-}
-
-blockquote:after {
-  content: close-quote;
-  font-size: 2em;
-  line-height: .5;
-}
 
 /* for getActiveMQ */
 #getActiveMQ-watcher { font-family: "default"; }
