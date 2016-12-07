@@ -319,3 +319,10 @@ BREAKPOINTS
         padding: 20px 0;
       }
     }
+
+    /*  < 1280px  */
+    @media screen and (min-width: 1280px) {
+      #banner h1 {
+        font-size: 8em;
+      }
+    }
