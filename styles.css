@@ -10,14 +10,6 @@ body {
   margin: 0;
 }
 
-nav {
-  position: relative;
-  margin-top: -5.43%;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  }
-
 #banner {
   max-width: 100%;
   position: relative;
@@ -58,8 +50,16 @@ nav {
   top: -14%;
   }
 
+nav {
+  position: relative;
+  margin-top: -5.43%;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  }
+
 nav ul {
-  padding: 0;
+  padding: 0 0 0 20px;
   margin-bottom: 0;
   }
 
