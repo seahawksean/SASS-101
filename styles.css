@@ -273,7 +273,7 @@ BREAKPOINTS
     }
 
     /*  320px - 748px  = this is the dimensions for drawer menu acitvation  */
-    @media only screen and (min-width:320px) and (max-width:648px) {
+    @media only screen and (min-width:320px) and (max-width:768px) {
     /* =================================================================
      * Navigation
      * ================================================================= */
