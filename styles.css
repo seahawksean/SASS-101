@@ -37,16 +37,19 @@ nav {
 @media screen and (min-width: 769px) and (max-width: 959px) {
   #banner h1 {
     font-size: 4em;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   #banner h1 {
     font-size: 3em;
+  }
 }
   
 @media screen and (min-width: 320px) and (max-width: 479px) {
   #banner h1 {
     font-size: 2em;
+  }
 }
     
 #banner img {
