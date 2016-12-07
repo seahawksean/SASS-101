@@ -174,7 +174,6 @@ footer article {
   justify-content: space-between;
   }
 
-
 @media screen and (min-width: 320px) and (max-width: 959px) {
   footer article {
     padding: 20px 0;
@@ -235,6 +234,7 @@ ul li a {
 
 li a:hover {
   text-decoration: underline;
+  color: #c3c3c3;
 }
 
 blockquote {
