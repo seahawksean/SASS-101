@@ -470,12 +470,12 @@ BREAKPOINTS
             right: 1em;
             left:  auto;
         }
-    #menu {
+/*    #menu {
         position: absolute;
         top: 3.75em;
         right: 0;
         white-space: nowrap;
-    }
+    }   */
         #menu ul {
             background: transparent;
             border: 0;
