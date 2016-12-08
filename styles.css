@@ -272,7 +272,7 @@ BREAKPOINTS
       }
     }
 
-    /*  320px - 748px  = this is the dimensions for drawer menu acitvation  */
+    /*  320px - 768px  = this is the dimensions for drawer menu acitvation  */
     @media only screen and (min-width:320px) and (max-width:768px) {
     /* =================================================================
      * Navigation
@@ -427,8 +427,32 @@ BREAKPOINTS
       }
     }
 
-    /* >= 768px */
-@media only screen and (min-width:768px) {
+    
+
+    /*  481px - 960px  */
+    @media screen and (min-width: 481px) and (max-width: 960px) {
+      ul li {
+       line-height: 1.25;
+       padding: 5px 20px 5px 10px;
+      }
+    }
+    
+    @media screen and (min-width: 481px) and (max-width: 960px) {
+      .body-image-right {
+        max-width: 280px;
+        width: 100%;
+      }
+    }
+
+    /*  769px - 960px */
+    @media screen and (min-width: 769px) and (max-width: 960px) {
+      #banner h1 {
+       font-size: 5em;
+      }
+    }
+
+    /* >= 769px */
+@media only screen and (min-width:769px) {
     
     /* =================================================================
      * Banner
@@ -547,28 +571,6 @@ BREAKPOINTS
     #getActiveMQ-watcher { font-family: "medium"; }
   }
 
-
-    /*  481px - 960px  */
-    @media screen and (min-width: 481px) and (max-width: 960px) {
-      ul li {
-       line-height: 1.25;
-       padding: 5px 20px 5px 10px;
-      }
-    }
-    
-    @media screen and (min-width: 481px) and (max-width: 960px) {
-      .body-image-right {
-        max-width: 280px;
-        width: 100%;
-      }
-    }
-
-    /*  769px - 960px */
-    @media screen and (min-width: 769px) and (max-width: 960px) {
-      #banner h1 {
-       font-size: 5em;
-      }
-    }
 
     /*  >=960px  */
     @media screen and (min-width: 320px) and (max-width: 960px) {
