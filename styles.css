@@ -462,7 +462,7 @@ BREAKPOINTS
     /* =================================================================
      * Navigation
      * ================================================================= */
-/*     #nav-jump {
+    #nav-jump {
         right: auto;
         left:  -999em;
     }
@@ -470,7 +470,7 @@ BREAKPOINTS
             right: 1em;
             left:  auto;
         }
-    #menu {
+/*     #menu {
         position: absolute;
         top: 3.75em;
         right: 0;
@@ -569,9 +569,9 @@ BREAKPOINTS
  */ 
  
     /* for getActiveMQ */
-/*    #getActiveMQ-watcher { font-family: "medium"; }
+    #getActiveMQ-watcher { font-family: "medium"; }
   }
-*/
+
 
     /*  >=960px  */
     @media screen and (min-width: 320px) and (max-width: 960px) {
