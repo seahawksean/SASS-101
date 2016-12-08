@@ -427,7 +427,121 @@ BREAKPOINTS
       }
     }
 
-
+    /* >= 768px */
+@media only screen and (min-width:768px) {
+    
+    /* =================================================================
+     * Banner
+     * ================================================================= */
+     
+  
+    /* =================================================================
+     * Navigation
+     * ================================================================= */
+    #nav-jump {
+        right: auto;
+        left:  -999em;
+    }
+        #nav-jump:focus {
+            right: 1em;
+            left:  auto;
+        }
+    #menu {
+        position: absolute;
+        top: 3.75em;
+        right: 0;
+        white-space: nowrap;
+    }
+        #menu ul {
+            background: transparent;
+            border: 0;
+        }
+        #menu li,
+        #menu a {
+            border: 0;
+            display: inline-block;
+        }
+        #menu a {
+            border-radius: 5px 5px 0 0;
+            color: #fff;
+            line-height: 2em;
+            padding: 0 1em;
+        }
+        #menu mark a {
+            background: #fff;
+            color: #000;
+        }
+        #menu ul a:hover,
+        #menu ul a:focus,
+        #menu ul mark a:hover,
+        #menu ul mark a:focus {
+            background: #ccc;
+            color: #000;
+        }
+        #menu ul a:active,
+        #menu ul mark a:active {
+            background: green;
+            color: #fff;
+        }
+    .home #menu {
+        position: static;
+        text-align: center;
+        margin: 1em auto;
+        padding: 0;
+        white-space: normal;
+    }
+        .home #menu ul {
+            width: auto;
+        }
+        .home #menu li {
+            display: block;
+        }
+        .home #menu a {
+            border-radius: 5px;
+            color: #000;
+        }
+        .home #menu mark a {
+            background: #000;
+            color: #fff;
+        }
+        .home #menu ul a:hover,
+        .home #menu ul a:focus,
+        .home #menu ul mark a:hover,
+        .home #menu ul mark a:focus {
+            background: #ccc;
+            color: #000;
+        }
+        .home #menu h1.hidden,
+        .home #menu ul .hidden {
+            position: static !important;
+            width: 100%;
+            height: auto;
+            clip: inherit;
+            overflow: visible;
+        }
+        .home #menu h1 {
+            margin-bottom: .5em;
+        }
+            .home #menu h1::before {
+                content: " ";
+                display: block;
+                height: 0;
+                margin: .5em auto 1em;
+                width: 50%;
+                border-top: 1px solid #ccc;
+            }
+    .home #menu-close::before {
+        color: #000;
+        content: "^ Return to the top";
+        display: inline-block;
+        font-size: .75em;
+        margin-top: 1em;
+        text-transform:  uppercase;
+    }
+        .home #menu-close:hover::before,
+        .home #menu-close:focus::before {
+            color: red;
+        }
     /*  481px - 960px  */
     @media screen and (min-width: 481px) and (max-width: 960px) {
       ul li {
