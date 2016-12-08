@@ -542,6 +542,12 @@ BREAKPOINTS
         .home #menu-close:focus::before {
             color: red;
         }
+  
+    /* for getActiveMQ */
+    #getActiveMQ-watcher { font-family: "medium"; }
+  }
+
+
     /*  481px - 960px  */
     @media screen and (min-width: 481px) and (max-width: 960px) {
       ul li {
