@@ -257,19 +257,19 @@ li a:hover {
 BREAKPOINTS
 *********************************/
     /*  >=480px  */
-    @media screen and (min-width: 320px) and (max-width: 480px) {
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
       #banner h1 {
         font-size: 2em;
       }
     }
 
-    @media screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
       .body-image-right {
         max-width: 480px;
       }
     }
 
-    @media screen and (max-width: 480px) {
+    @media only screen and (max-width: 480px) {
       footer article {
         display: block;
       }
@@ -424,7 +424,7 @@ BREAKPOINTS
     }
 
     /*  481px - 768px  */
-    @media screen and (min-width: 481px) and (max-width: 768px) {
+    @media only screen and (min-width: 481px) and (max-width: 768px) {
       #banner h1 {
         font-size: 3em;
       }
@@ -433,14 +433,14 @@ BREAKPOINTS
     
 
     /*  481px - 960px  */
-    @media screen and (min-width: 481px) and (max-width: 960px) {
+    @media only screen and (min-width: 481px) and (max-width: 960px) {
       ul li {
        line-height: 1.25;
        padding: 5px 20px 5px 10px;
       }
     }
     
-    @media screen and (min-width: 481px) and (max-width: 960px) {
+    @media only screen and (min-width: 481px) and (max-width: 960px) {
       .body-image-right {
         max-width: 280px;
         width: 100%;
@@ -455,7 +455,7 @@ BREAKPOINTS
     }
 
    /* >= 769px */
-@media only screen and (min-width:769px) {
+    @media only screen and (min-width:769px) {
     
     /* =================================================================
      * Banner
@@ -577,20 +577,20 @@ BREAKPOINTS
 
 
     /*  >=960px  */
-    @media screen and (min-width: 320px) and (max-width: 960px) {
+    @media only screen and (min-width: 320px) and (max-width: 960px) {
      ul {
       padding: 0 20px 0 20px;
       }
     }
 
-    @media screen and (min-width: 320px) and (max-width: 960px) {
+    @media only screen and (min-width: 320px) and (max-width: 960px) {
       footer article {
         padding: 20px 0;
       }
     }
 
     /*  < 1280px  */
-    @media screen and (min-width: 1280px) {
+    @media only screen and (min-width: 1280px) {
       #banner h1 {
         font-size: 8em;
       }
