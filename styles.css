@@ -325,6 +325,7 @@ BREAKPOINTS
        padding: 0 20px 0 0;
        display: block;
        line-height: 1.5;
+       margin-bottom: 5px;
      }
       
      nav ul li a {
@@ -442,6 +443,7 @@ BREAKPOINTS
             }
                 .drawer-nav-enabled body #menu ul a {
                     height: auto;
+                    display: block;
                 }
                     .drawer-nav-enabled body #menu ul a:hover,
                     .drawer-nav-enabled body #menu ul a:focus {
