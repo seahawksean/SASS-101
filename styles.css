@@ -145,8 +145,8 @@ nav ul li a:hover, nav ul li a:focus,   {
   color: white;
 }
 
-nav mark a:hover,
-nav mark a:focus {
+nav li mark a:hover,
+nav li mark a:focus {
     background: black;
     color: white;
     -webkit-transition: background .4s;
