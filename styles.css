@@ -473,7 +473,7 @@ BREAKPOINTS
             right: 1em;
             left:  auto;
         }
-/*     #menu {
+     #menu {
         position: absolute;
         top: 3.75em;
         right: 0;
@@ -569,7 +569,7 @@ BREAKPOINTS
         .home #menu-close:focus::before {
             color: red;
         }
- */ 
+ 
  
     /* for getActiveMQ */
     #getActiveMQ-watcher { font-family: "medium"; }
