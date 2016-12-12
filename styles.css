@@ -199,6 +199,7 @@ nav li mark a:focus {
     top: .75em;
     right: 1em;
     z-index: 1000;
+    transition: -moz-transform 2s;
 }
 
 .nav-burger {
