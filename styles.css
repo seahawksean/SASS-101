@@ -120,7 +120,7 @@ nav ul li {
   }
 
 nav ul li a {
-  background-color: #f26522;
+  background: #f26522;
   border-radius: 10px 10px 0 0;
   color: white;
   padding: 10px 20px;
@@ -140,7 +140,7 @@ nav ul li a:hover, nav ul li a:focus,   {
   -ms-transition: background-color .5s ease-in;
   -o-transition: background-color .5s ease-in;
   transition: background-color .5s ease-in;
-  background-color: #000;
+  background: #000;
   text-decoration: none;
   color: white;
 }
