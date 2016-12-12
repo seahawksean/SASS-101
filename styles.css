@@ -214,7 +214,7 @@ nav li mark a:focus {
 }
 
 #nav-jump:active .nav-burger:nth-of-type(1) {
-  -moz-transform: rotateZ(45deg) translate(10px, 10px);
+  -moz-transform: rotateZ(45deg) translate(5px, 10px);
 }
 
 #nav-jump:active .nav-burger:nth-of-type(2) {
@@ -222,7 +222,7 @@ nav li mark a:focus {
 }
 
 #nav-jump:active .nav-burger:nth-of-type(3) {
-  -moz-transform: rotateZ(-45deg) translate(10px, -10px);
+  -moz-transform: rotateZ(-45deg) translate(5px, -10px);
 }
 
 
