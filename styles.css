@@ -99,7 +99,7 @@ BANNER/HERO IMAGE
 /***************************************
 NAVIGATION
 ***************************************/
-#menu {
+nav {
   position: relative;
   margin-top: -5.43%;
   width: 100%;
@@ -107,19 +107,19 @@ NAVIGATION
   margin: 0 auto;
   }
 
-#menu ul {
+nav ul {
   padding: 0 0 0 20px;
   margin-bottom: 0;
   }
 
-#menu ul li {
+nav ul li {
   font-family: "Georgia", Times New Roman, serif;
   font-size: 1em;
   display: inline;
   padding: 0;
   }
 
-#menu ul li a {
+nav ul li a {
   background-color: #f26522;
   border-radius: 10px 10px 0 0;
   color: white;
@@ -129,7 +129,7 @@ NAVIGATION
   display: inline-block;
   }
 
-#menu ul li a:hover {
+nav ul li a:hover {
   -moz-transition: background-color .5s ease-in;
   -webkit-transition: background-color .5s ease-in;
   -ms-transition: background-color .5s ease-in;
@@ -140,7 +140,7 @@ NAVIGATION
   color: white;
 }
 
-#menu ul li a:active {
+nav ul li a:active {
   background-color: #000;
 }
 
