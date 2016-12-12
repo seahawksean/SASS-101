@@ -166,12 +166,12 @@ nav li mark a {
 }
 
 nav ul li a:hover, nav ul li a:focus,   {
-  -moz-transition: background .5s ease-in;
-  -webkit-transition: background .5s ease-in;
-  -ms-transition: background .5s ease-in;
-  -o-transition: background .5s ease-in;
-  transition: background .5s ease-in;
-  background: #000;
+  -moz-transition: background-color .5s ease-in;
+  -webkit-transition: background-color .5s ease-in;
+  -ms-transition: background-color .5s ease-in;
+  -o-transition: background-color .5s ease-in;
+  transition: background-color .5s ease-in;
+  background-color: #000;
   text-decoration: none;
   color: white;
 }
