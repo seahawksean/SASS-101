@@ -160,7 +160,7 @@ nav ul li a {
   display: inline-block;
   }
 
-nav mark li a {
+nav li mark a {
     background: #000;
     color: #fff;
 }
