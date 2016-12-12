@@ -522,11 +522,12 @@ BREAKPOINTS
             line-height: 2em;
             padding: 0 1em;
         }
-*/
+
         #menu mark a {
-            background: #fff;
+            background: #000;
             color: #000;
         }
+*/
         #menu ul a:hover,
         #menu ul a:focus,
         #menu ul mark a:hover,
