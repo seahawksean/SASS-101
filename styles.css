@@ -527,7 +527,7 @@ BREAKPOINTS
             background: #000;
             color: #000;
         }
-*/
+
         #menu ul a:hover,
         #menu ul a:focus,
         #menu ul mark a:hover,
@@ -540,7 +540,7 @@ BREAKPOINTS
             background: green;
             color: #fff;
         }
-/*    .home #menu {
+   .home #menu {
         position: static;
         text-align: center;
         margin: 1em auto;
