@@ -340,7 +340,7 @@ BREAKPOINTS
          }
         body:not(:target) #menu:target ul a {
             border-bottom-width: 1px;
-            padding: 4px 20px;
+            padding: 8px 20px;
             width: 100%;
             height: 2.5em;
             position: relative;
@@ -405,7 +405,7 @@ BREAKPOINTS
                 }
                     .drawer-nav-enabled body #menu ul a:hover,
                     .drawer-nav-enabled body #menu ul a:focus {
-                        background-color: #ccc;
+                        background-color: black;
                     }
         .drawer-nav-open {
             overflow: hidden;
