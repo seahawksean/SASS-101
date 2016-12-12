@@ -430,8 +430,8 @@ BREAKPOINTS
       }
     }
 
-       /* >= 768px */
-    @media only screen and (min-width:768px) {
+       /* >= 768px Screens larger than 769px */  
+    @media only screen and (min-width:769px) {
     
     /* =================================================================
      * Banner
@@ -449,7 +449,7 @@ BREAKPOINTS
             right: 1em;
             left:  auto;
         }
-     #menu {
+/*     #menu {
         position: absolute;
         top: 3.75em;
         right: 0;
@@ -545,6 +545,8 @@ BREAKPOINTS
         .home #menu-close:focus::before {
             color: red;
         }
+      
+*/
  
     /* for getActiveMQ */
     #getActiveMQ-watcher { font-family: "medium"; }
