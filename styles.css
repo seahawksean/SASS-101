@@ -165,7 +165,7 @@ nav li mark a {
     color: #fff;
 }
 
-nav ul li a:hover, nav ul li a:focus,   {
+nav ul li a:hover, nav ul li a:focus {
   -moz-transition: background-color .5s ease-in;
   -webkit-transition: background-color .5s ease-in;
   -ms-transition: background-color .5s ease-in;
