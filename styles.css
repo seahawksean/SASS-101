@@ -217,7 +217,7 @@ nav li mark a:focus {
   -moz-transform: rotateZ(45deg);
 }
 
-#nav-jump:active .nav-burger:nth-of-type(3)
+#nav-jump:active .nav-burger:nth-of-type(3) {
   -moz-transform: rotateZ(-45deg);
 }
 
