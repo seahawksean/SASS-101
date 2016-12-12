@@ -280,6 +280,17 @@ BREAKPOINTS
     /* =================================================================
      * Navigation
      * ================================================================= */
+      
+     nav ul li {
+       padding: 0 20px 0 0;
+       display: block;
+       line-height: 1.5;
+     }
+      
+     nav ul li a {
+       border-radius: 0;
+     }
+      
     /* body:not(:target) is a nifty CSS filter to allow show/hide with CSS 
      * in browsers that support :not() and :target
      * See: http://www.creativebloq.com/css3/build-smart-mobile-navigation-without-hacks-6122800
@@ -325,11 +336,13 @@ BREAKPOINTS
         body:not(:target) #menu:target ul {
             background: #fff;
             background-color: rgba(255, 255, 255, .95);
-            border-color: #000;
-        }
+            /* border-color: #000;  */
+         }
         body:not(:target) #menu:target ul a {
             border-bottom-width: 1px;
-            height: 2em;
+            padding: 4px 20px;
+            width: 100%;
+            height: 2.5em;
             position: relative;
             z-index: 1;
                -moz-transition: height .25s;
