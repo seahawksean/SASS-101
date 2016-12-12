@@ -1,3 +1,34 @@
+/* Charset Controls */
+@charset "UTF-8";
+
+/* Media Query controls */
+@-moz-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-ms-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-o-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@-webkit-viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+ 
+/* CSS Reset for HTML5 */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
+  display:block;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -230,8 +261,6 @@ ul {
   line-height: 1.5;
   padding: 20px 0 0 20px;
 }
-
-
 
 ul a {
   color: #c3c3c3;
@@ -473,9 +502,8 @@ BREAKPOINTS
             right: 1em;
             left:  auto;
         }
-    #menu {
-        position: absolute;
-        top: 3.75em;
+/*    #menu {
+        position: relative;
         right: 0;
         white-space: nowrap;
     }   
@@ -494,6 +522,7 @@ BREAKPOINTS
             line-height: 2em;
             padding: 0 1em;
         }
+*/
         #menu mark a {
             background: #fff;
             color: #000;
@@ -510,7 +539,7 @@ BREAKPOINTS
             background: green;
             color: #fff;
         }
-    .home #menu {
+/*    .home #menu {
         position: static;
         text-align: center;
         margin: 1em auto;
@@ -569,7 +598,8 @@ BREAKPOINTS
         .home #menu-close:focus::before {
             color: red;
         }
-
+*/
+      
     /* for getActiveMQ */
     #getActiveMQ-watcher { font-family: "medium"; }
     }
