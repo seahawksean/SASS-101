@@ -129,7 +129,12 @@ nav ul li a {
   display: inline-block;
   }
 
-nav ul li a:hover {
+nav mark li a {
+    background: #000;
+    color: #fff;
+}
+
+nav ul li a:hover, nav ul li a:focus,   {
   -moz-transition: background-color .5s ease-in;
   -webkit-transition: background-color .5s ease-in;
   -ms-transition: background-color .5s ease-in;
@@ -140,8 +145,14 @@ nav ul li a:hover {
   color: white;
 }
 
-nav ul li a:active {
-  background-color: #000;
+nav mark a:hover,
+nav mark a:focus {
+    background: black;
+    color: white;
+    -webkit-transition: background .4s;
+       -moz-transition: background .4s;
+        -ms-transition: background .4s;
+            transition: background .4s;
 }
 
 #nav-jump {
