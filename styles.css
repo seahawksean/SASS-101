@@ -190,23 +190,6 @@ nav li mark a:focus {
             transition: background .4s;
 }
 
-.home #nav-jump {
-    border: 1px solid;
-    border-radius: 3px;
-    background: #f26522;
-    color: #fff;
-    font: bold .875em Oxygen, Helvetica, Arial, sans-serif;
-    padding: .5em;
-    text-transform: uppercase;
-    /* move to the upper right corner */
-    position: absolute;
-    top: .75em;
-    right: 1em;
-    z-index: 1000;
-    height: 30px;
-    width: 35px;
-}
-
 #nav-jump {
     border: 1px solid;
     border-radius: 3px;
@@ -217,13 +200,16 @@ nav li mark a:focus {
     text-transform: uppercase;
     /* move to the upper right corner */
     position: absolute;
-    top: -2.25em;
-    right: 1em;
+    top: 12.75em;
+    right: 20px;
     z-index: 1000;
     height: 30px;
     width: 35px;
 }
 
+.home #nav-jump {
+    top: .75em;
+}
 
 /**********************
 MAIN BODY CONTENT
