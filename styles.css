@@ -459,7 +459,13 @@ BREAKPOINTS
         -moz-transform: rotateZ(-45deg) translate(5px, -5px);
       }
 */      
-      
+      .main-nav-icon {
+          display: block;
+          height: 100%;
+          margin-top: 0;
+          position: relative;
+          width: 100%;
+      }
       .main-nav-icon .bars {
           height: 100%;
           width: 100%;
