@@ -439,7 +439,7 @@ BREAKPOINTS
       Mobile nav button animation 
       ***************************/
       
-      body:not(:active) #menu:target ul a#nav-jump .nav-burger:nth-of-type(1) {
+/*      body:not(:active) #menu:target ul a#nav-jump .nav-burger:nth-of-type(1) {
         transition: -moz-transform 2s delay 1s;
       }
       
@@ -458,6 +458,38 @@ BREAKPOINTS
       body:active #menu:target ul a#nav-jump .nav-burger:nth-of-type(1) {
         -moz-transform: rotateZ(-45deg) translate(5px, -5px);
       }
+*/      
+      
+      .main-nav-icon .bars {
+          height: 100%;
+          width: 100%;
+      }
+      .main-nav-icon .bar {
+          background-color: #ffffff;
+          height: 3px;
+          left: 0;
+          position: absolute;
+          transform-origin: left center 0;
+          transition: all 0.5s ease 0s;
+          width: 100%;
+      }
+      .main-nav-icon .top-bar {
+          top: 0;
+      }
+      .main-nav-icon .middle-bar {
+          top: 50%;
+          transform: translateY(-50%);
+      }
+      .main-nav-icon .bottom-bar {
+          bottom: 0;
+      }
+      .drawer-nav-open .main-nav-icon .bar {
+          background-color: #ffffff;
+          margin: 0;
+          width: 23px;
+      }
+      
+      
     /* Drawer Nav */
     .drawer-nav-enabled {
         /* nothing to see here :-) */
