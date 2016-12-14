@@ -494,9 +494,19 @@ BREAKPOINTS
       .drawer-nav-open .main-nav-icon .bar {
           background-color: #ffffff;
           margin: 0;
-          width: 23px;
+          width: 21px;
       }
-      
+      .drawer-nav-open .main-nav-icon .middle-bar {
+          opacity: 0;
+      }
+      .drawer-nav-open .main-nav-icon .top-bar {
+          transform: rotate(45deg);
+      }
+      .drawer-nav-open .main-nav-icon .bottom-bar {
+          bottom: 1px;
+          transform: rotate(-45deg);
+      }
+
       
     /* Drawer Nav */
     .drawer-nav-enabled {
