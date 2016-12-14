@@ -492,7 +492,7 @@ BREAKPOINTS
           bottom: -1px;
       }
       .drawer-nav-open .main-nav-icon .bar {
-          background-color: #ffffff;
+          background-color: #000;
           margin: 0;
           width: 21px;
           left: 3px;
