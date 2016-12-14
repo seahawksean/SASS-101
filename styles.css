@@ -751,7 +751,14 @@ BREAKPOINTS
       }
     }
 
-    /*  < 1280px  */
+    /*  > 1024px  */
+    @media only screen and (min-width: 1024px) {
+      #banner h1 {
+        margin: -28% 0 20%;
+      }
+    }
+      
+    /*  > 1280px  */
     @media only screen and (min-width: 1280px) {
       #banner h1 {
         font-size: 8em;
