@@ -489,7 +489,7 @@ BREAKPOINTS
           transform: translateY(-50%);
       }
       .main-nav-icon .bottom-bar {
-          bottom: 0;
+          bottom: -1px;
       }
       .drawer-nav-open .main-nav-icon .bar {
           background-color: #ffffff;
