@@ -199,6 +199,8 @@ nav li mark a:focus {
     top: .75em;
     right: 1em;
     z-index: 1000;
+    height: 30px;
+    width: 35px;
 }
 
 
