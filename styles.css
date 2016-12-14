@@ -111,10 +111,6 @@ BANNER/HERO IMAGE
   position: relative;
   }
 
-#banner {
-  margin-top: 40px;
-}
-
 #banner h1 {
   color: white;
   text-shadow: 5px 5px 10px #000;
