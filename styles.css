@@ -473,7 +473,7 @@ BREAKPOINTS
           width: 100%;
       }
       .main-nav-icon .bar {
-          background-color: #ffffff;
+          background-color: #000;
           height: 3px;
           left: 0;
           position: absolute;
