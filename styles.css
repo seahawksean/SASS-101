@@ -106,7 +106,7 @@ HELPERS
 /**********************
 BANNER/HERO IMAGE
 **********************/
-#banner {
+.home #banner {
   max-width: 100%;
   position: relative;
   }
@@ -346,26 +346,6 @@ BREAKPOINTS
         margin-bottom: 0;
       }
 
-/*      .drawer-nav-open:active #nav-jump .nav-burger:nth-of-type(1) {
-        transition: -moz-transform 2s delay 1s;
-      }
-      
-      .drawer-nav-open:active #nav-jump .nav-burger:nth-of-type(1) {
-        -moz-transform: rotateZ(45deg) translate(6px, 6px);
-      }
-
-      .drawer-nav-open:active #nav-jump .nav-burger:nth-of-type(2) {
-        background: transparent;
-      }
-
-      .drawer-nav-open:active #nav-jump .nav-burger:nth-of-type(3) {
-        transition: -moz-transform 2s delay 1s;
-      }
-      
-      .drawer-nav-open:active #nav-jump .nav-burger:nth-of-type(3) {
-        -moz-transform: rotateZ(-45deg) translate(5px, -5px);
-      }
-*/
       
     /* body:not(:target) is a nifty CSS filter to allow show/hide with CSS 
      * in browsers that support :not() and :target
@@ -440,27 +420,6 @@ BREAKPOINTS
       /*******************
       Mobile nav button animation 
       ***************************/
-      
-/*      body:not(:active) #menu:target ul a#nav-jump .nav-burger:nth-of-type(1) {
-        transition: -moz-transform 2s delay 1s;
-      }
-      
-      body:active #menu:target ul a#nav-jump .nav-burger:nth-of-type(1) {
-        -moz-transform: rotateZ(45deg) translate(6px, 6px);
-      }
-
-      body:not(:active) #menu:target ul a#nav-jump .nav-burger:nth-of-type(2) {
-        background: transparent;
-      }
-
-      body:not(:active) #menu:target ul a#nav-jump .nav-burger:nth-of-type(3) {
-        transition: -moz-transform 2s delay 1s;
-      }
-      
-      body:active #menu:target ul a#nav-jump .nav-burger:nth-of-type(1) {
-        -moz-transform: rotateZ(-45deg) translate(5px, -5px);
-      }
-*/      
       .main-nav-icon {
           display: block;
           height: 100%;
