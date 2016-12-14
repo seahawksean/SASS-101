@@ -186,7 +186,7 @@ nav li mark a:focus {
             transition: background .4s;
 }
 
-#nav-jump {
+.home #nav-jump {
     border: 1px solid;
     border-radius: 3px;
     background: #f26522;
@@ -323,7 +323,9 @@ BREAKPOINTS
     /* =================================================================
      * Navigation
      * ================================================================= */
-      
+     #nav-jump {
+       top: -47px;
+     }
      nav ul li {
        padding: 0 20px 0 0;
        display: block;
